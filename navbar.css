@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    background: url(https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png);
+}
+.topbar_navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display:flex;
+    gap:0%;
+    position:sticky;
+    /* border:1px solid yellow */
+}
+.green{
+    height: 35px;
+    width:8%;
+    background-color: #1bb76e;
+    color: white;
+    font-weight:600;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#postbtn{
+    margin-left: 3%;
+    display: flex;
+    gap:5%;
+   padding-top: 5px;
+    text-align: center;
+}
+#postbtn>img{
+    height: 16px;
+    width:15px;
+}
+#sbox{
+    height: 35px; 
+   border-radius: 5px;
+   width:39%;
+   display: flex;
+    margin-left: 10%;
+    background-color: #454469;
+}
+.search{
+    /* position:fixed; */
+    width: 88%;
+    height: 80%;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 2%;
+    color: white;  
+   background-color: transparent;
+     outline: none;
+}
+/* .search:focus{
+    outline: none;
+    color: white;
+} */
+#sbox>button{
+    width: 7%;
+    height: 80%;
+    padding: 0px;
+    margin-left: 2%;
+    border:transparent;
+    background-color: transparent;
+}
+#sbox>button>img{
+    margin-top: 5px;
+}
+#circle{
+    margin-left: 3.5%;
+}
+#firstLine{
+    color:#AED8EA;
+    /* margin:auto; */
+    margin-left: 35%;
+}
+
+
+#tagContainer{
+    height: 160px;
+    display:flex;
+    gap:1%;
+    width:93.5%;  
+    margin:auto; 
+    margin-left: 6%; 
+}
+#tagContainer>div{
+    height:145px;
+    width:8%;
+    border-radius: 5px;
+}
+#tagContainer>div:first-child{
+    width:15%;
+}
+#tagContainer>div>div>img{
+   width:100%;
+   height:80px;
+}
+#tagContainer>div>div{
+    gap:0px;
+    color:white;
+    text-align: center;
+    gap:-55px;
+    height:60px;
+}
+#secondboxtext{
+    margin-top: -30px;
+}
+#explore{
+    display: flex;
+    width:88.5%;
+    color:rgb(170, 189, 216);
+    margin:auto;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+/* API Key: 6b4fcf46efc3477dab4221509220503  */
